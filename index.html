@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+               </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Add a New Blog Post</h2>
+            <form id="blogForm">
+                <div>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <BR>
+                <div>
+                    <label for="content">Content:</label>
+                    <textarea id="content" name="content" required></textarea>
+                </div>
+                <BR>
+                    <div>
+                        <label for="author">Author Name:</label>
+                        <input type="text" id="author" name="author" required>
+                    </div>
+                <br>
+                <button type="submit">Add Post</button>
+            </form>
+        </section>
+        
+        <section id="blogPosts">
+            <h2>Posts:</h2>
+            <!-- new post area -->
+        </section>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <p>&copy; 2024 Student Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
